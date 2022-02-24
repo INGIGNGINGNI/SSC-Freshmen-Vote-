@@ -1,8 +1,8 @@
 <?php
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $dbname = "ssc_db";
+    $servername = "us-cdbr-east-05.cleardb.net";
+    $username = "b856bd9ca7f47d";
+    $password = "726fa9ad";
+    $dbname = "heroku_3dbe55d574660bf";
 
     try {
         $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
