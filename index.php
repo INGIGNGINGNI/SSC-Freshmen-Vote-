@@ -54,19 +54,26 @@
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
-                    aria-expanded="true" aria-controls="collapseTwo">
+                <a class="nav-link collapsed" href="showboy.php">
                     <i class="fas fa-fw fa-cog"></i>
-                    <span>Contestant</span>
+                    <span>Freshmen Boy</span>
                 </a>
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                <a class="nav-link collapsed" href="showgirl.php">
+                    <i class="fas fa-fw fa-cog"></i>
+                    <span>Freshmen Girl</span>
+                </a>
+                <a class="nav-link collapsed" href="showmissile.php">
+                    <i class="fas fa-fw fa-cog"></i>
+                    <span>Missile</span>
+                </a>
+                <!-- <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">View profile</h6>
                         <a class="collapse-item" href="showboy.php">Freshmen Boy</a>
                         <a class="collapse-item" href="showgirl.php">Freshmen Girl</a>
                         <a class="collapse-item" href="showmissile.php">Missile</a>
                     </div>
-                </div>
+                </div> -->
             </li>
 
             <!-- Nav Item - Utilities Collapse Menu -->
