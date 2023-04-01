@@ -1,6 +1,5 @@
 <?php 
-    session_start();
-	
+    session_start();	
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -189,12 +188,20 @@
                                     $result = $stmt->fetchAll();
                                     foreach($result as $k) {
                                 ?>
-                                <div class="col-md-6 col-lg-4 mb-5">
-                                    <div class="portfolio-item mx-auto view_data" id="<?= $k['id'];?>" data-bs-toggle="modal" data-bs-target="#myModal">
+                                
+                                <div class="col-md-4  mb-5">
+                                    <center>
+                                    <div class="portfolio-item mx-auto view_data">
                                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"></div>
-                                        <img class="img-fluid" src= dashboard/uploads/<?= $k['img'];?> />
+                                        <img class="img-fluid mb-3" src= dashboard/uploads/<?= $k['img'];?> />
+                                        <h2 class="portfolio-modal-title font-weight-bold text-primary mt-1"><?= $k['position'];?> <?= $k['nickname'];?></h2>
+                                        <h2 class="portfolio-modal-title font-weight-bold text-primary mt-2"><?= $k['firstname'];?> <?= $k['lastname'];?></h2>
+                                        <h3 class="portfolio-modal-title font-weight-bold text-success mb-0"><?= $k['fos'];?></h3>
+                                        <h4 class="my-4">‷ <?= $k['description'];?> ‴</h4>
                                     </div>
+                                    </center>
                                 </div>
+                                
                                 <?php } ?>
                             </div>
                         </div>

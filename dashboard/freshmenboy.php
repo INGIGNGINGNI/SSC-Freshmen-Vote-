@@ -318,7 +318,7 @@
                                                 foreach($conts as $cont)  {  
                                             ?>
                                                 <tr>
-                                                    <th scope="row"><?php echo $cont['id']; ?></th>
+                                                    <th scope="row"></th>
                                                     <td><?php echo $cont['firstname']; ?></td>
                                                     <td><?php echo $cont['lastname']; ?></td>
                                                     <td><?php echo $cont['nickname']; ?></td>
